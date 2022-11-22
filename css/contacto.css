@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+/*Configurar toda la página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', sans-serif;
+}
+
+/*configuraciones generales*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/*final de configuraciones generales*/
+
+/*inico de navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;    
+}
+
+.nav-links a{
+    font-size: 18px;
+    color: #FDFEFE;
+}
+
+.nav-links li a.active{
+    color:#BC0F01;
+}
+
+.nav-links li a:hover{
+    color: #BC0F01;
+}
+/*final del navbar*/
+
+form {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    max-width: 420px;
+    border-radius: 1em;
+    padding: 2.5em 2em;
+}
+
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: .4em;
+}
+
+.form-input{
+    font-size: .8rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form-input-message{
+    resize: none;
+    padding: 1em 1em;
+    padding-bottom: 4.5em;
+    margin-bottom: .4em;
+}
+
+.form-cta{
+    font-size: .8em;
+    background-color: #B40808;
+    color: #FFF;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+h2{
+    color: #B40808;
+}
